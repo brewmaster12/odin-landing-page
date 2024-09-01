@@ -1,5 +1,4 @@
 * {
-    outline: 2px solid red;
 }
 
 body {
@@ -62,4 +61,13 @@ button {
     font-weight: 900;
     padding-inline: 45px;
     border-radius: 10px;
+}
+
+.footer {
+    color: #F9FAF8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }

@@ -21,7 +21,7 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
-    padding: 20px 300px;
+    padding: 10px 300px;
 }
 
 ul {
@@ -31,4 +31,35 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 400;
+}
+
+.section1 {
+    display: flex;
+    padding: 100px 300px;
+    gap: 60px;
+}
+
+.section1-container {
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-sec {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 900;
+    padding-inline: 45px;
+    border-radius: 10px;
 }

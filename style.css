@@ -1,5 +1,6 @@
-* {
-}
+html, body {
+    margin: 0;
+  }  
 
 body {
     display: flex;
@@ -116,4 +117,41 @@ em {
 
 .s4-button {
     border-color: #F9FAF8;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 60px;
+}
+
+.items-container {
+    display: flex;
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-bottom: 200px;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+p {
+    text-align: center;
+}
+
+.item img {
+    border-radius: 25px;
+    outline: 2px solid rgb(49, 114, 233);
 }
